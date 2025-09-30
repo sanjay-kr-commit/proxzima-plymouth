@@ -26,7 +26,7 @@ state.status = "play";
 state.time = 0.0;
 
 // Image counts
-boot = 196;
+boot = 97;
 shut = 97;
 
 
@@ -34,7 +34,7 @@ shut = 97;
 
 // Display a list of images while booting
 for (i = 0; i < boot; i++)
-  flyingman_image[i] = Image("boot-" + i + ".png");
+  flyingman_image[i] = Image("shut-" + i + ".png");
 flyingman_sprite = Sprite();
 
 
